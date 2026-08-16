@@ -139,4 +139,24 @@ A foreign key is a primary key from a one table that is used to establish a rela
 
 ## 11. Cardinality of Relationships
 
+Cardinality in database relationships refers to the number of occurrences of an entity in a relationship with another entity. Cardinality defines the number of instances of one entity that can be associated with a single instance of the related entity.
+
+1. One-to-one relationship 1:1 -> 1 Table
+2. One-to-many relationship 1:N -> 2 Table
+3. Many-to-many relationship M:N -> 3 Table
+
 ## 12. Drawbacks of Databases
+
+**Complexity:** Setting up and maintaining a database can be complex and time-consuming, especially for large and complex systems.
+
+**Cost:** The cost of setting up and maintaining a database, including hardware, software, and personnel, can be high.
+
+**Scalability:** As the amount of data stored in a database grows, it can become more difficult to manage, leading to performance and scalability issues.
+
+**Data Integrity:** Ensuring the accuracy and consistency of data stored in a database can be a challenge, especially when multiple users are updating the data simultaneously.
+
+**Security:** Securing a database from unauthorized access and protecting sensitive information can be difficult, especially with the increasing threat of cyber attacks.
+
+**Data Migration:** Moving data from one database to another or upgrading to a new database can be a complex and time-consuming process.
+
+**Flexibility:** The structure of a database is often rigid and inflexible, making it difficult to adapt to changing requirements or to accommodate new types of data.
