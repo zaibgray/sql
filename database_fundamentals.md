@@ -101,6 +101,11 @@ Also known as SQL databases, these databases use a relational model to organize 
 
 ## 9. Practical
 
+MySQL
+
+- MySQL Workbanch
+- Appache XAMPP
+
 ## 10. Database Keys
 
 ## 11. Cardinality of Relationships
