@@ -57,18 +57,18 @@ A Database is a shared collection of logically related data and description of t
 
 ## 5. Types of Databases
 
-1. **Relational Databases**
+1. **Relational Databases:**
 Also known as SQL databases, these databases use a relational model to organize data into tables with rows and columns.
-2. **NoSQL Databases**
+2. **NoSQL Databases:**
 These databases are designed to handle large amounts of unstructured or semi-structured data, such as documents, images, or videos. (MongoDB)
-3. **Column Databases**
+3. **Column Databases:**
 These databases store data in columns rather than rows, making them well-suited for data warehousing and analytical applications. (Amazon Redshift, Google BigQuery)
 
     - If you want to learn more about Row vs Column Databasese then [clik here](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/)
 
-4. **Graph Databases**
+4. **Graph Databases:**
 These databases are used to store and query graph-structured data, such as social network connections or recommendation systems. (Neo4j, Amazon Neptune)
-5. **Key-value databases**
+5. **Key-value databases:**
 These databases store data as a collection of keys and values, making them well-suited for caching and simple data storage needs (Redis and Amazon DynamoDB)
 
 ## 6. Relational Databases
@@ -116,25 +116,25 @@ Use PostgresSQL because it is more useful now.
 
 A key in a database is an attribute or a set of attributes that uniquely identifies a tuple (row) in a table. Keys play a crucial role in ensuring the integrity and reliability of a database by enforcing unique constraints on the data and establishing relationships between tables.
 
-1. **Super Key**
+1. **Super Key:**
 A Super key is a combination of columns that uniquely identifies any row within a relational database management system (RDBMS) table
 
-2. **Candidate key**
+2. **Candidate key:**
 A candidate key is a minimal Super key, meaning it has no redundant attributes. In other words, it's the smallest set of attributes that can be used to uniquely identify a tuple (row) in the table
 
-3. **Primary Key**
+3. **Primary Key:**
 A primary key is a unique identifier for each tuple in a table. There can only be one primary key in a table, and it cannot contain null values.
 
-4. **Alternate Key**
+4. **Alternate Key:**
 An alternate key is a candidate key that is not used as the primary key.
 
-5. **Composite Key**
+5. **Composite Key:**
 A composite key is a primary key that is made up of two or more attributes. Composite keys are used when a single attribute is not sufficient to uniquely identify a tuple in a table.
 
-6. **Surrogate Key**
+6. **Surrogate Key:**
 A key that we make when all posiable columns's combination can't make a primary key and then we add a new column(like std_id) to make a primary key, this is called Surrogate key
 
-7. **Foreign Key**
+7. **Foreign Key:**
 A foreign key is a primary key from a one table that is used to establish a relationship with anohter table.
 
 ## 11. Cardinality of Relationships
