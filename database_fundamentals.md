@@ -106,7 +106,22 @@ MySQL
 - MySQL Workbanch
 - Appache XAMPP
 
+PostgreSQL
+
 ## 10. Database Keys
+
+A key in a database is an attribute or a set of attributes that uniquely identifies a tuple (row) in a table. Keys play a crucial role in ensuring the integrity and reliability of a database by enforcing unique constraints on the data and establishing relationships between tables.
+
+1. **Super Key**
+A Super key is a combination of columns that uniquely identifies any row within a relational database management system (RDBMS) table
+2. **Candidate key**
+A candidate key is a minimal Super key, meaning it has no redundant attributes. In other words, it's the smallest set of attributes that can be used to uniquely identify a tuple (row) in the table
+3. **Primary Key**
+A primary key is a unique identifier for each tuple in a table. There can only be one primary key in a table, and it cannot contain null values.
+4. **Alternate Key**
+An alternate key is a candidate key that is not used as the primary key.
+5. **Composite Key**
+A composite key is a primary key that is made up of two or more attributes. Composite keys are used when a single attribute is not sufficient to uniquely identify a tuple in a table.
 
 ## 11. Cardinality of Relationships
 
